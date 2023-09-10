@@ -1,0 +1,73 @@
+body{
+    background-color: #222;
+    color: #ccc;
+    font-family: Arial, sans-serif;
+}
+
+
+/* heading */
+
+.heading{
+    text-align: center;
+}
+
+#score-head{
+    text-align: center;
+}
+
+
+/*Score card */
+
+.score{
+    display: flex;
+    justify-content: center;
+}
+
+.score > span{
+    padding: 10px;
+}
+
+/* Game board */
+
+.container{
+    display: grid;
+    column-gap: 50px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    height: 115px;
+    width: 115px;
+    background-color: gray;
+    border: 5px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: aqua;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: lightgray;
+}
+
+/* turn-box */
+
+#message-box{
+    text-align: center;
+}
+
+
+/* buttons */
+
+.game-buttons{
+    text-align: center;
+}
+
+
+

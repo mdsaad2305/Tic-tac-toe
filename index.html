@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--the title  -->
+    <div class="heading">
+        <h1> TicTacToe</h1>
+    </div>
+
+
+    <!-- the score card -->
+    <h2 id="score-head">Score</h2>
+    <div class="score">
+        <span>
+            <span>Player 1: </span>
+            <span id="player1-score">0</span>
+        </span>
+        <br>
+        <span>
+            <span>Player 2: </span>
+            <span id="player2-score">0</span>
+        </span>
+    </div>
+
+    <!-- game container -->
+    <div class="container">
+        <div class="row">
+            <div class="cell" id="cell1"></div>
+            <div class="cell" id="cell2"></div>
+            <div class="cell" id="cell3"></div>
+        </div>
+        <div class="row">
+            <div class="cell" id="cell4"></div>
+            <div class="cell" id="cell5"></div>
+            <div class="cell" id="cell6"></div>
+        </div>
+        <div class="row">
+            <div class="cell" id="cell7"></div>
+            <div class="cell" id="cell8"></div>
+            <div class="cell" id="cell9"></div>
+        </div>
+    </div>
+
+    <!-- player turn box -->
+    <div id="message-box">
+        <p>Your turn player X</p>
+    </div>
+
+    <!-- new-game and reset-score buttons -->
+    <div class="game-buttons">
+        <button class="new-game">New Game</button>
+        <button class="reset">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
